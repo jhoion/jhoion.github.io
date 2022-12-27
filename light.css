@@ -1,0 +1,44 @@
+body {
+    background-color: #02050a;
+}
+button {
+    background-color: #130031;
+    color: #40ecec;
+}
+button:hover {
+    background-color: #332042;
+}
+#copiar-cont, #input, #copiar-area{
+    background-color: #16161a;
+    color: #a5b3c5;
+}
+#copiar-cont, #input {
+    border: 3px #000 solid;
+    outline: none;
+}
+button {
+    border: 3px #4b368a solid;
+}
+header {
+    border-bottom: 3px #a5b3c5 solid;
+    color: #a5b3c5;
+}
+#copiar-area, a {
+    color: #a5b3c5;
+}
+i {
+    color: #a5b3c5;
+}
+[tema = 'bad'] {
+    background-color: #f25042;
+    border: #92332a solid 3px;
+    color: #081b0c;
+}
+[tema = 'good'] {
+    background-color: #62b492;
+    border: #249264 solid 3px;
+    color: #0f3d15;
+}
+.fa-arrow-right-arrow-left, .fa-broom {
+    color: #dfdfdd;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./style.css" rel="stylesheet" type="text/css" />
+        <link href="./light.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="https://kit.fontawesome.com/789f909082.js" crossorigin="anonymous"></script>
+        <title>Codigo Secreto</title>
+    </head>
+    <body>
+        <header>
+            <div id="header">Codigo Secreto</div>
+            <div class="linksh">
+                <a title="github" href="https://github.com/jhoion/Codigo-Secreto" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        </div>
+        </header>
+        <main class="main">
+            <div id="text" class="cont1">
+                <div id="input-area">
+                    <textarea title="texto" autocomplete="off" placeholder="Ingresa el texto aqui" id="input"></textarea>
+                </div>
+                <div id="botones">
+                    <div id="encrip" class="boton">
+                        <button title="encriptar" type="button" id="encripb">
+                            Encriptar
+                        </button>
+                    </div>
+                    <div id="desencrip" class="boton">
+                        <button title="desencriptar" type="button" id="desencripb">
+                            Desencriptar
+                        </button>
+                    </div>
+                    <div id="limpiar" class="boton">
+                        <button title="limpiar" type="button" id="limpiarb">
+                            <i class="fa-solid fa-broom"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="copiar-text">
+                <div id="copiar-cont">
+                    <textarea title="resultado" autocomplete="off" readonly="true" id="copiar-area" disabled placeholder="..."></textarea>
+                </div>
+                <div id="copiarbs">
+                    <div id="intercambiar" class="boton util">
+                        <button title="intercambiar" type="button" id="intercamb"><i id="interb" class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                    <div id="copiar" class="boton util">
+                        <button title="copiar" type="button" id="copiarb">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="instagram" class="linksf"><a title="instagram" href="https://www.instagram.com/ion_ortiz" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a></div>
+            <div id="github" class="linksf"><a title="github" href="https://github.com/jhoion" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></div>
+            <div id="twitter" class="linksf"><a title="twitter" href="https://twitter.com/ionortiz" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-twitter"></i></a></div>
+        </footer>
+        <div id="alert" title="alert" tema="bad"></div>
+    </body>
+    <script src="./code/functions.js"></script>
+</html>
